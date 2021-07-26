@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/amgadfikry/devchallenge-404-not-found.git">
+    <a href="https://github.com/amgadfikry/devchallenge-404-not-found/blob/main/index.html">
       Solution
     </a>
     <span> | </span>
