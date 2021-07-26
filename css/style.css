@@ -1,0 +1,117 @@
+/*start root style*/
+:root{
+    font-size: calc( 0.5em + 1vw);
+    --main-color:#333333;
+    --light-color:#4F4F4F;
+    font-family: 'Space Mono', monospace;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+/*end root style*/
+
+/*start own framework*/
+.center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
+.container{
+    margin: auto;
+}
+/*end own framework*/
+
+/*start media query*/
+@media (min-width:768px){
+    .container{
+        width:750px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        width:970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width:1170px;
+    }
+}
+/* end media query*/
+
+/*start page style*/
+h1{
+    color: var(--main-color);
+    font-weight: 700;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px , 1fr));
+}
+.content img{
+    width: 100%;
+    height: auto;
+}
+.content .photo{
+    padding: 20px;
+}
+.content .text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text h3{
+    font-size: 2.5rem;
+    color: var(--main-color);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.text p{
+    line-height: 1.5;
+    color: var(--light-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.text button{
+    background-color: var(--main-color);
+    padding: 15px 20px;
+    color: white;
+    width: fit-content;
+    border: 1px solid var(--main-color);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: var(--main-color);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-color);
+    font-size: 0.8rem;
+    padding: 20px 30px;
+}
+footer p:last-of-type{
+    margin-left: auto;
+}
+/*end page style*/
+
