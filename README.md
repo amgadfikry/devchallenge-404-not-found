@@ -58,4 +58,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@amgadfikry]("https://github.com/amgadfikry")
+- GitHub [@amgadfikry](https://github.com/amgadfikry)
